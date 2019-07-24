@@ -7,7 +7,7 @@
 Installation
 First, install dependencies:
 
-    composer require james.xue/laravel-admin-grid
+    composer require james.hl/laravel-admin-grid
     
     
 User 
