@@ -1,0 +1,19 @@
+{
+    "name": "james.hl/laravel-admin-grid",
+    "description": "laravel-admin Grid update",
+    "type": "library",
+    "keywords": ["laravel-admin", "admin Grid","extension"],
+    "homepage": "https://github.com/huanglin88/laravel-admin-Grid.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huanglin",
+            "email": "huanglin8610@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "James\\Admin\\": "src/"
+        }
+    }
+}
