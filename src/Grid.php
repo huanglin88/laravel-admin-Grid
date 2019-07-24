@@ -13,9 +13,9 @@ class Grid extends Grids
      */
     protected function appendActionsColumn()
     {
-        if (!$this->option('useActions')) {
-            return;
-        }
+        #if (!$this->option('useActions')) {
+         #   return;
+        #}
 
         $this->addColumn('__actions__', trans('admin.action'))
             ->displayUsing(Actions::class, [$this->actionsCallback]);
